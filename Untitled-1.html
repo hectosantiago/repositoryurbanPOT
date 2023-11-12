@@ -35,6 +35,9 @@
         }
 
         .textofoto img {
+         position: absolute;
+         top:0;
+         left: 0; 
          padding-top: 300px;
          padding-left: 750px;
           z-index: 10;
@@ -82,6 +85,29 @@ color: #fff;
 
 
 
+.image-container{
+
+  position: relative;
+
+}
+
+
+.main-image {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.logo-over {
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: auto;
+
+}
+ 
 </style>
 
 <body>
@@ -108,23 +134,38 @@ color: #fff;
     </div>
   </nav>
 
+  <div class="image-container">
 
+    <div class="textofoto">
+      <h1 style="font-size: 100px">Planta <BR> y crece </h1>
+      <h2>cultiva en casa</h2>
+    </div>
+    <img src="imagenes/imagen6.jpg" width="100%" class="main-image">
+
+      
+    <img src="imagenes/urbanpot_logo_png_3-removebg-preview.png" class="logo-over">
+  </div>
+
+  
+
+  <!-- <div class="container text-center">
     
+        <div class="imagenindex">
+          <div class="textofoto">
+             <h1 style="font-size: 100px">Planta <BR> y crece </h1>
+             <h2>cultiva en casa</h2>
+    
+            <img src="imagenes/urbanpot_logo_png_3-removebg-preview.png" >
+          </div>
+          
+          <img src="imagenes/imagen6.jpg" width="100%">
+          
+            
+       </div>
+     
+  </div>  -->
 
-   <div class="imagenindex">
-      <div class="textofoto">
-         <h1 style="font-size: 100px">Planta <BR> y crece </h1>
-         <h2>cultiva en casa</h2>
-
-        <img src="imagenes/urbanpot_logo_png_3-removebg-preview.png" alt="right=" width="">
-      </div>
-      
-      <img src="imagenes/imagen6.jpg" width="100%">
-      
-      
-
-      
-   </div>
+  
 
 
 
